@@ -1,13 +1,13 @@
 # vue-toast
   基于vue2开发的移动端toast插件
 ## 使用
-  ####安装：
+####安装：
     npm install vue-toast -S
-  ####引入：
+####引入：
     import Toast from 'vue-toast';
     import 'vue-toast/lib/index.css';
     Vue.use(Toast)
-  ####在组件中使用：
+####在组件中使用：
     ```
     <template>
       <div class="hello">

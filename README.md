@@ -12,7 +12,7 @@
     ```
       resolve: {
         alias: {
-          'vue$': 'vue/dist/vue.esm.js'
+          'vue$': 'vue/dist/vue.js'
         }
       },
     ```

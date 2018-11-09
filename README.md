@@ -49,11 +49,12 @@
     </script>
   ```
   #### 配置详解：
-  [options] options设置默认值
+  * [options] options设置默认值
+  
   #### 全局配置：
-   * * type: Toast显示的位置 String | 默认: 'top' | 可选值 'top, center,bottom';
-   * * animationType: Toast显示动画 String | 默认: 'fadeInDown' | 可选值 'fadeIn, fadeInDown, fadeInDownBig, fadeInLeft, fadeInLeftBig, fadeInRight, fadeInRightBig, fadeInUp, fadeInUpBig';
-   * * duration: Toast显示时长 String | 默认: '2500';
+  *   type: Toast显示的位置 String | 默认: 'top' | 可选值 'top, center,bottom';
+  *   animationType: Toast显示动画 String | 默认: 'fadeInDown' | 可选值 'fadeIn, fadeInDown, fadeInDownBig, fadeInLeft, fadeInLeftBig, fadeInRight, fadeInRightBig, fadeInUp, fadeInUpBig';
+  *   duration: Toast显示时长 String | 默认: '2500';
     Vue.use(Toast, [options])
   ```
     Vue.use(Toast, {

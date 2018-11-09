@@ -1,0 +1,14 @@
+{
+  "name": "vue-toast",
+  "version": "1.0.1",
+  "description": "a toast for mobile,dependent on vue ^2.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "keywords": [
+    "[vue.js,toast,vue-plugin]"
+  ],
+  "author": "dengpeng",
+  "license": "ISC"
+}

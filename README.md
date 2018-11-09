@@ -7,6 +7,25 @@
     import Toast from 'vue-toast-animation';
     import 'vue-toast-animation/lib/index.css';
     Vue.use(Toast)
+#### 注意：
+    vue-cli2 需要配置 在webpack.base.conf.js：
+    ```
+      resolve: {
+        alias: {
+          'vue$': 'vue/dist/vue.esm.js'
+        }
+      },
+    ```
+    vue-cli3 需要配置 在vue.config.js：
+    ```
+      configureWebpack: {
+        resolve: {
+          alias: {
+            'vue$': 'vue/dist/vue.js'
+          }
+        }
+      }
+    ```
 #### 在组件中使用：
   ```
     <template>

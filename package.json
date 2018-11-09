@@ -1,5 +1,5 @@
 {
-  "name": "vue-toast",
+  "name": "vue-toast-animation",
   "version": "1.0.1",
   "description": "a toast for mobile,dependent on vue ^2.0",
   "main": "lib/index.js",
@@ -7,7 +7,7 @@
     "test": "yarn test"
   },
   "keywords": [
-    "[vue.js,toast,vue-plugin]"
+    "[vue.js,toast,vue-plugin, vue-toast, vue-toast-animation]"
   ],
   "author": "dengpeng",
   "license": "ISC"
